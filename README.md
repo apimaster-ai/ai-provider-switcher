@@ -4,8 +4,8 @@ Point Claude Code, Codex CLI, OpenCode and Continue at a different LLM provider 
 command — and find out where they currently point with another.
 
 ```bash
-npx ai-provider-switcher status
-npx ai-provider-switcher use apimaster
+npx @apimaster/ai-provider-switcher status
+npx @apimaster/ai-provider-switcher use apimaster
 ```
 
 Zero dependencies, Node 18.17+.

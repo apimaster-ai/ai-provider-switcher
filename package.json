@@ -1,5 +1,5 @@
 {
-  "name": "ai-provider-switcher",
+  "name": "@apimaster/ai-provider-switcher",
   "version": "0.1.0",
   "description": "Switch Claude Code, Codex, OpenCode and Continue between LLM providers with one command — and see where each of them currently points.",
   "keywords": [
