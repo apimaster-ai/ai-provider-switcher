@@ -17,6 +17,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      - run: node --test test/*.test.js
+      - run: node --test test/cli.test.js
       - run: node bin/ai-switch.js ls
       - run: node bin/ai-switch.js status

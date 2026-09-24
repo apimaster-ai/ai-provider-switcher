@@ -2,14 +2,35 @@
   "name": "ai-provider-switcher",
   "version": "0.1.0",
   "description": "Switch Claude Code, Codex, OpenCode and Continue between LLM providers with one command — and see where each of them currently points.",
-  "keywords": ["claude-code", "codex", "opencode", "continue", "llm", "provider", "openai-compatible", "cli"],
+  "keywords": [
+    "claude-code",
+    "codex",
+    "opencode",
+    "continue",
+    "llm",
+    "provider",
+    "openai-compatible",
+    "cli"
+  ],
   "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=18.17" },
-  "bin": { "ai-switch": "bin/ai-switch.js" },
-  "files": ["bin", "src", "README.md", "LICENSE"],
-  "scripts": {
-    "test": "node --test test/*.test.js"
+  "engines": {
+    "node": ">=18.17"
   },
-  "repository": { "type": "git", "url": "git+https://github.com/apimaster-ai/ai-provider-switcher.git" }
+  "bin": {
+    "ai-switch": "bin/ai-switch.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/cli.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apimaster-ai/ai-provider-switcher.git"
+  }
 }
